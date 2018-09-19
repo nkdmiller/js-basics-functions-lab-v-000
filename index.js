@@ -27,7 +27,7 @@ function distanceTravelledInFeet(start, end){
   }
   return result;
 }
-function distanceTravelledInFeet(start, end){
+function calculatesFarePrice(start, end){
   let result;
   if (start >= end){
    result = (start - end) * 264;
