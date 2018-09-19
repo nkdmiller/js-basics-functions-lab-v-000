@@ -36,7 +36,7 @@ function calculatesFarePrice(start, end){
     result = (end - start) * 264;
   }
   if (fare < 400){
-    fare
+    fare = 0
   }
   return result;
 }
