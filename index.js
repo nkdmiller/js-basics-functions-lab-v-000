@@ -7,3 +7,8 @@ function distanceFromHqInBlocks(distance){
   }
   return result;
 }
+
+function distanceFromHqInFeet(distance){
+  let result;
+  
+}
