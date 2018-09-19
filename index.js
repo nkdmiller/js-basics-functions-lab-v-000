@@ -17,3 +17,10 @@ function distanceFromHqInFeet(distance){
   }
   return result;
 }
+
+function   if (distance >= 42){
+  result = distance - 42;
+  } else {
+    result = 42 - distance;
+  }
+  return result;
