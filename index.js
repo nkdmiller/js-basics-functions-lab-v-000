@@ -27,3 +27,12 @@ function distanceTravelledInFeet(start, end){
   }
   return result;
 }
+function distanceTravelledInFeet(start, end){
+  let result;
+  if (start >= end){
+   result = (start - end) * 264;
+  } else {
+    result = (end - start) * 264;
+  }
+  return result;
+}
