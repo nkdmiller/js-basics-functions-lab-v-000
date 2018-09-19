@@ -46,5 +46,5 @@ function calculatesFarePrice(start, end){
     fare = 0
   }
     
-  return result;
+  return fare;
 }
