@@ -18,11 +18,12 @@ function distanceFromHqInFeet(distance){
   return result;
 }
 
-function distanceTravelledInFeet()
+function distanceTravelledInFeet(start, end){
   let result;
-  if (distance >= 42){
-  result = distance - 42;
+  if (start >= end){
+   result = (start - end) * 264;
   } else {
-    result = 42 - distance;
+    result = (end - start) * 264;
   }
   return result;
+}
