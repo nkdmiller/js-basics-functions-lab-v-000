@@ -30,9 +30,9 @@ function distanceTravelledInFeet(start, end){
 function calculatesFarePrice(start, end){
   let result;
   if (start >= end){
-   result = (start - end) * 264;
+   result = (start - end) * 264 * .02;
   } else {
-    result = (end - start) * 264;
+    result = (end - start) * 264 * .02;
   }
   return result;
 }
