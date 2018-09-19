@@ -18,7 +18,9 @@ function distanceFromHqInFeet(distance){
   return result;
 }
 
-function   if (distance >= 42){
+function distanceTravelledInFeet()
+  let result;
+  if (distance >= 42){
   result = distance - 42;
   } else {
     result = 42 - distance;
