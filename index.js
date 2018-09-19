@@ -35,6 +35,6 @@ function calculatesFarePrice(start, end){
   } else {
     result = (end - start) * 264;
   }
-  switch fare;
+  switch (result)
   return result;
 }
