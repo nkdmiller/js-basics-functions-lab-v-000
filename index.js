@@ -36,7 +36,7 @@ function calculatesFarePrice(start, end){
     result = (end - start) * 264;
   }
   switch (result) {
-    
+    case 
   }
   return result;
 }
